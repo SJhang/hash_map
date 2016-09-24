@@ -81,8 +81,7 @@ class LinkedList
     end
     target_link.prev.next = target_link.next
     target_link.next.prev = target_link.prev
-    # target_link.next=nil
-    # target_link.prev=nil
+
   end
 
   def each
